@@ -6,7 +6,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: #f9e4b7; /* Amarillo pastel */
+  background-color: #ffbe0d;
 }
 
 /* Contenedor de formulario de datos y formulario de ABM */
@@ -15,9 +15,10 @@ body {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  border: 2px solid #f0a07e; /* Rojo pastel */
+  border: 2px solid #ffbe0d;
   border-radius: 10px;
-  background-color: #d0acdf; /* Violeta pastel */
+  background-color: #3131d2;
+  color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   margin: 20px;
 }
@@ -53,13 +54,14 @@ body {
 label {
   font-weight: normal;
   font-size: 14px;
+  color: #ffbe0d;
 }
 
 input,
 select {
   width: 100%;
   padding: 10px;
-  border: 2px solid #f0a07e; /* Rojo pastel */
+  border: 2px solid #ffbe0d;
   border-radius: 5px;
   margin: 5px 0;
   font-size: 16px;
@@ -85,18 +87,18 @@ button {
 }
 
 #btn-add {
-  background-color: #ffec40; /* Amarillo */
-  color: #333; /* Texto negro */
+  background-color: #ffec40;
+  color: #3131d2;
 }
 
 #btn-edit {
-  background-color: #ffc107; /* Amarillo */
-  color: #000; /* Texto negro */
+  background-color: #ffc107;
+  color: #3131d2;
 }
 
 #btn-delete {
-  background-color: #dc3545; /* Rojo */
-  color: #fff; /* Texto blanco */
+  background-color: #dc3545;
+  color: #fff;
 }
 
 /* Campos de filtro y cálculo de edad promedio */
@@ -106,6 +108,7 @@ button {
   align-items: center;
   margin: 10px;
   padding: 10px;
+  color: #fff;
 }
 
 #ddl-type-filter,
@@ -121,6 +124,7 @@ button {
   font-size: 18px;
   font-weight: bold;
   margin-right: 10px;
+  color: #ffbe0d;
 }
 
 #btn-calculate-age-average {
@@ -136,6 +140,7 @@ button {
   justify-content: space-around;
   margin: 10px;
   padding: 10px;
+  color: #ffbe0d;
 }
 
 input[type="checkbox"] {
@@ -146,6 +151,7 @@ input[type="checkbox"] {
 #chk-label {
   font-size: 16px;
   font-weight: normal;
+  color: #ffbe0d;
 }
 
 .chk-container {
@@ -167,10 +173,11 @@ input[type="checkbox"] {
 table,
 th,
 td {
-  border: 2px solid #333;
+  border: 2px solid #3131d2;
   border-collapse: collapse;
   padding: 10px;
   text-align: center;
   font-size: 16px;
   font-weight: normal;
+  color: #fff;
 }
